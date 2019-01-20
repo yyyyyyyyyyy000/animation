@@ -12,6 +12,10 @@
 		B58C599821F3561100908117 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B58C599621F3561100908117 /* Main.storyboard */; };
 		B58C599A21F3561300908117 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B58C599921F3561300908117 /* Assets.xcassets */; };
 		B58C599D21F3561300908117 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B58C599B21F3561300908117 /* LaunchScreen.storyboard */; };
+		B58C59A521F3567300908117 /* PlayingcardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58C59A421F3567300908117 /* PlayingcardView.swift */; };
+		B58C59A721F356E400908117 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58C59A621F356E400908117 /* Card.swift */; };
+		B58C59A921F356F600908117 /* Deck(model).swift in Sources */ = {isa = PBXBuildFile; fileRef = B58C59A821F356F600908117 /* Deck(model).swift */; };
+		B58C59AB21F4259E00908117 /* cardBehavior.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58C59AA21F4259E00908117 /* cardBehavior.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,10 @@
 		B58C599921F3561300908117 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B58C599C21F3561300908117 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B58C599E21F3561300908117 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B58C59A421F3567300908117 /* PlayingcardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayingcardView.swift; sourceTree = "<group>"; };
+		B58C59A621F356E400908117 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		B58C59A821F356F600908117 /* Deck(model).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Deck(model).swift"; sourceTree = "<group>"; };
+		B58C59AA21F4259E00908117 /* cardBehavior.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cardBehavior.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,7 +64,11 @@
 			children = (
 				B58C599221F3561100908117 /* AppDelegate.swift */,
 				B58C599421F3561100908117 /* ViewController.swift */,
+				B58C59AA21F4259E00908117 /* cardBehavior.swift */,
+				B58C59A621F356E400908117 /* Card.swift */,
+				B58C59A821F356F600908117 /* Deck(model).swift */,
 				B58C599621F3561100908117 /* Main.storyboard */,
+				B58C59A421F3567300908117 /* PlayingcardView.swift */,
 				B58C599921F3561300908117 /* Assets.xcassets */,
 				B58C599B21F3561300908117 /* LaunchScreen.storyboard */,
 				B58C599E21F3561300908117 /* Info.plist */,
@@ -136,7 +148,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				B58C599521F3561100908117 /* ViewController.swift in Sources */,
+				B58C59A521F3567300908117 /* PlayingcardView.swift in Sources */,
+				B58C59A921F356F600908117 /* Deck(model).swift in Sources */,
 				B58C599321F3561100908117 /* AppDelegate.swift in Sources */,
+				B58C59A721F356E400908117 /* Card.swift in Sources */,
+				B58C59AB21F4259E00908117 /* cardBehavior.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
